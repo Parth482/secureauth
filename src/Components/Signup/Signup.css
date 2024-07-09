@@ -1,0 +1,170 @@
+.split-screen-signup-container {
+  display: flex;
+  height: 100vh; /* Adjust height as needed */
+}
+
+.ssplit-screen-signup-form {
+  flex: 1;
+  background-color: #4152b3; /* Adjust background color as needed */
+  color: #fff; /* Adjust text color as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.split-screen-signup-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.signup-text {
+  color: #fafafa; /* Adjust text color as needed */
+  font-size: 48px; /* Adjust font size as needed */
+  font-weight: 700;
+}
+
+.split-screen-signup-text1 {
+  color: #fff; /* Adjust text color as needed */
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+.split-screen-signup-inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
+
+.split-screen-signup-input {
+  display: flex;
+  align-items: center;
+  width: 480px; /* Adjust width as needed */
+  height: 80px; /* Adjust height as needed */
+  background: #eaeaea; /* Adjust background color as needed */
+  border-radius: 6px; /* Adjust border radius as needed */
+}
+
+.split-screen-signup-input img {
+  margin: 0px 30px;
+}
+
+.split-screen-signup-input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.split-screen-signup-submit-container {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.split-screen-signup-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px; /* Adjust width as needed */
+  height: 59px; /* Adjust height as needed */
+  color: #fff;
+  background: #4c00b4; /* Adjust background color as needed */
+  border-radius: 50px; /* Adjust border radius as needed */
+  font-size: 19px; /* Adjust font size as needed */
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.signup-gray {
+  background: #eaeaea;
+  color: #676767;
+}
+
+.split-screen-right-side-content {
+  flex: 1;
+  background-color: #f0f0f0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.split-screen-right-side-content img {
+  max-width: 100%; /* Ensure the image does not exceed the container width */
+  max-height: 100%; /* Ensure the image does not exceed the container height */
+}
+
+/* OTP Popup Overlay CSS */
+.split-screen-signup-otp-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* OTP Popup CSS */
+.split-screen-signup-otp-popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.split-screen-signup-otp-input {
+  width: 20px;
+  height: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 50px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.split-screen-signup-otp-input:focus {
+  outline: none;
+  border-color: #007bff; /* Change to your preferred focus color */
+}
+
+/* Optional: Adjust styling for larger screens */
+@media (min-width: 768px) {
+  .split-screen-signup-otp-input {
+    width: 10rem;
+    height: 4rem;
+    font-size: 2rem;
+  }
+}
+
+/* Adjust button styles */
+.split-screen-signup-otp-popup button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.split-screen-signup-otp-popup button:hover {
+  background-color: #0056b3;
+}

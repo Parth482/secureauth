@@ -1,0 +1,23 @@
+/* AboutUs.css */
+
+.about-us-container {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about-us-image {
+  flex: 1; /* Take up 50% of the container width */
+ width: 1275px;
+ height: auto;
+ align-self: center;
+ justify-content: center;
+}
+
+.about-us-content {
+  flex: 1; /* Take up 50% of the container width */
+  max-width: 100%; /* Adjust the width of the content */
+  padding: 0 20px; /* Add padding to create space between image and content */
+}

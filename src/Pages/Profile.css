@@ -1,0 +1,86 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 1200px;
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 150px; /* Set width of selected avatar */
+  height: 150px; /* Set height of selected avatar */
+  border-radius: 50%; /* Make it circular */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.avatar-selection{
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  left: 20px;
+  
+}
+
+.avatar-placeholder {
+  position: relative;
+}
+
+.empty-avatar {
+  width: 150px; /* Set width of empty avatar */
+  height: 150px; /* Set height of empty avatar */
+  border-radius: 50%; /* Make it circular */
+  border: 2px dashed #ccc; /* Add dashed border */
+}
+
+.gender-button {
+  margin-top: 10px; /* Add margin between buttons */
+}
+
+
+.profile-details {
+  flex-grow: 1; /* Take remaining space */
+  padding: 20px;
+}
+
+.profile-details h2 {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #070000;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

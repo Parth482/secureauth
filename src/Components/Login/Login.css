@@ -1,0 +1,156 @@
+/* Login.css */
+
+.split-screen {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background-color: #4152b3; /* Adjust background color as needed */
+  color: #fff; /* Adjust text color as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.right {
+  flex: 1;
+  background-color: #fff;
+}
+
+.image {
+  background-color: #fff;
+  display: flex;
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+  width: 50%; /* Adjust the width as needed */
+  height: 100%; /* Ensure the container takes up the full height of its parent */
+}
+
+
+.image img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.login-form {
+  width: 400px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: #fafafa; /* Adjust text color as needed */
+  font-size: 48px; /* Adjust font size as needed */
+  font-weight: 700;
+}
+
+.inputs {
+  
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  width: 480px; /* Adjust width as needed */
+  height: 80px; /* Adjust height as needed */
+  background: #eaeaea; /* Adjust background color as needed */
+  border-radius: 6px;
+}
+
+.input img {
+  margin: 0 30px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.submit-container {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px; 
+  height: 59px; 
+  color: #fff;
+  background: #4c00b4; 
+  border-radius: 50px; 
+  font-size: 19px; 
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit.gray {
+  background-color: #eaeaea;
+  color: #676767;
+}
+
+.otp-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otp-popup {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.otp-popup button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.otp-popup button:hover {
+  background-color: #0056b3;
+}
