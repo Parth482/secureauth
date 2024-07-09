@@ -21,7 +21,7 @@ const Signup = ({ setAction }) => {
   const handleSignUp = async () => {
     try {
       //signup logic...
-      const response = await axios.post('http://localhost:3000/auth/signup', {
+      const response = await axios.post('http://3.109.122.70:3000/auth/signup', {
         username,
         email,
         password,
