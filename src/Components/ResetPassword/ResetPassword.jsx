@@ -26,7 +26,7 @@ function ResetPassword() {
                 throw new Error('Token not found in URL');
             }
 
-            const response = await axios.post('http://localhost:3000/auth/resetpassword', {
+            const response = await axios.post('http://3.109.122.70:3000/auth/resetpassword', {
                 token: token,
                 password: newPassword
             });
