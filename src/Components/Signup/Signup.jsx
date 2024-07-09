@@ -40,7 +40,7 @@ const Signup = ({ setAction }) => {
   const handleVerifyOtp = async () => {
     try {
       // Verify OTP
-      const response = await axios.post('http://localhost:3000/auth/verify-otp', { email, otp });
+      const response = await axios.post('http://3.109.122.70:3000/auth/verify-otp', { email, otp });
       console.log('Sending OTP verification request with data:', { email, otp });
       // If OTP is verified, close the popup and proceed to the dashboard
       setShowOtpPopup(false);
