@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start --port 3001",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts --openssl-legacy-provider build --port 3001",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
