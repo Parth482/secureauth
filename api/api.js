@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000', // Replace with your backend URL
+  baseURL: 'http://3.109.122.70:3000', // Replace with your backend URL
 });
 
 export const fetchData = async () => {
