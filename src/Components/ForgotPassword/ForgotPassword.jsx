@@ -15,7 +15,7 @@ const ForgotPassword = () => {
     e.preventDefault();
     try {
       
-      const response = await axios.post('http://localhost:3000/auth/forget-password', { email});
+      const response = await axios.post('http://3.109.122.70:3000/auth/forget-password', { email});
      setSuccessMessage('Password Reset Mail Sent');
 
      
